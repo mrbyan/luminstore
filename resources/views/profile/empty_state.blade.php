@@ -2,11 +2,11 @@
 
 @section('content')
     {{-- breadcrumb --}}
-    <x-breadcrumb page="My Account" />
+    <x-breadcrumb page="My Account" class="bg-neutral-100" />
 
     {{-- change password section --}}
     <section class="mb-16">
-        <div class="container-init flex w-full px-3 gap-9">
+        <div class="container-init flex w-full gap-9">
             {{-- sidebar --}}
             @include('partials.sidebar')
 
@@ -21,7 +21,7 @@
                     </p>
                     <a href="" class="btn-dark flex gap-2 justify-center items-center">
                         <p class="text-sm font-medium">Start Shopping</p>
-                        <img src="../icons/right.svg" alt="" />
+                        <img src="{{ asset('icons/right.svg') }}" alt="" />
                     </a>
                 </div>
             </main>

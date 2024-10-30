@@ -2,11 +2,11 @@
 
 @section('content')
     {{-- breadcrumb --}}
-    <x-breadcrumb page="My Account" />
+    <x-breadcrumb page="My Account" class="bg-neutral-100" />
 
     {{-- order section --}}
     <section class="mb-16">
-        <div class="container-init flex w-full px-3 gap-9">
+        <div class="container-init flex w-full gap-9">
             {{-- sidebar --}}
             @include('partials.sidebar')
 

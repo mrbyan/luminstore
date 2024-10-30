@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- breadcrumb --}}
-    <x-breadcrumb page="Login" />
+    <x-breadcrumb page="Login" class="bg-neutral-100" />
 
     {{-- login section --}}
     <section class="mb-16">
