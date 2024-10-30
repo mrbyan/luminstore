@@ -1,6 +1,6 @@
 @props(['page' => '', 'prev' => 'Ecommerce'])
 
-<section class="mb-16 bg-neutral-100">
+<section {{ $attributes->merge(['class' => 'mb-16']) }}>
     <div class="container-init flex items-center py-6">
         <div class="">
             <h2 class="font-bold text-2xl text-neutral-900 mb-2">
