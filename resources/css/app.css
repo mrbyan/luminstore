@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-init {
+    @apply container mx-auto lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm px-5;
+}
+
+.btn-dark {
+    @apply bg-neutral-900 font-medium text-sm text-white px-6 py-[9.5px] rounded;
+}
+
+.btn-light {
+    @apply font-medium text-sm text-neutral-900 px-6 py-[9.5px] rounded border border-neutral-900;
+}
+
+.input {
+    @apply py-[10px] px-5 border border-neutral-100 rounded;
+}
